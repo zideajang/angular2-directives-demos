@@ -1,0 +1,17 @@
+.wraper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.border{
+    border: 3px solid orangered;
+}
+
+.background{
+    background-color: deepskyblue;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}

@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<div class="wraper">
+  <h1></h1>
+  <h2>ngClass 和 ngStyles</h2>
+  <div [ngClass]="{border:true,background:true}"></div>
+  <hr>
+  <div [class.background]="true"></div>
+  <hr>
+  <div [ngStyle]="{'background-color':'orangered','border':'3px solid deepskyblue'}"></div>
+</div>
